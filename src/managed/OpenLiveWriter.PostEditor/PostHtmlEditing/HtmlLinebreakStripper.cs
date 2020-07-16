@@ -36,9 +36,9 @@ namespace OpenLiveWriter.PostEditor.PostHtmlEditing
 
         public string GetHtml()
         {
+        //Ô­Îª£ºreturn htmlData.ToString();
             string html = htmlData.ToString();
             html = html.Replace("<font ", "<span ").Replace("</font>", "</span>");
-
             return html;
         }
 

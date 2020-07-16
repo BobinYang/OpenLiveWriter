@@ -499,8 +499,8 @@ namespace OpenLiveWriter.PostEditor
             get
             {
                 return new RecentPostCapabilities(new RecentPostRequest[]
-                    {
-                        new RecentPostRequest(50),    new RecentPostRequest(100),    new RecentPostRequest(200),    new RecentPostRequest(500), new RecentPostRequest(1000),
+                    { //Ô­Îª£º new RecentPostRequest(25),
+                        new RecentPostRequest(50), new RecentPostRequest(100), new RecentPostRequest(200),    new RecentPostRequest(500), new RecentPostRequest(1000),
                         RecentPostRequest.All
                     },
                     _defaultRequest
